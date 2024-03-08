@@ -1,0 +1,65 @@
+    * {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Designer', Helvetica, sans-serif;
+    }
+
+    html, body {
+        height: 100vh;
+        width: 97.9vw;
+        position: relative;
+    }
+
+    .logo {
+        display: block;
+        margin: 25px auto;
+    }
+
+    .head {
+        margin: 50px auto;
+        margin-top: 25px;
+        text-align: center; 
+        width: 100%;
+        height: 1080px;
+        position: relative;
+    }
+
+    .buttons {
+        position: absolute;
+        text-align: center;
+        padding-top: 30px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+
+    .head > div > a:hover {
+        color: red;
+    }
+
+    .register, .download {
+        text-decoration: none;
+        display: inline-block;
+        color: aqua;
+        text-shadow: 2px 2px 3px black;
+        width: 350px;
+        height: 90px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px black;
+    }
+
+    .register {
+        background-image: url(../imgs/texturaamarela.jpg);
+    }
+
+    .download {
+        background-image: url(../imgs/download.jpg);
+    }
+
+    footer {
+        background-color: darkgray;
+        width: 100%;
+        height: 300px;
+    }

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'NexaL';
+    src: url('../font/Nexa-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NexaB';
+    src: url('../font/Nexa-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Designer';
+    src: url('../font/Designer.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AbsoluteEmpiret';
+    src: url('../fonts/AbsoluteEmpire.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AbsoluteEmpireo';
+    src: url('../fonts/AbsoluteEmpire.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Funk';
+    src: url('../fonts/LTFunk.otf') format('opentype');
+}

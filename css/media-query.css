@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    .head, .bodyone, .bodytwo, .bodythree {
+        background: transparent url(../imgs/800x720.png) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1080px;
+    }
+
+    .text {
+        color: black;
+        font-size: 20px;
+        text-shadow: 2px 2px 1px aqua;
+    }
+
+    .logo {
+        max-width: 30vw;
+    }
+
+    .buttons {
+        font-size: 20px;
+    }
+
+    .register, .download {
+        padding-top: 50px;
+    }
+
+    .download {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+    .head, .bodyone, .bodytwo, .bodythree {
+        background: transparent url(../imgs/1280720.png) center center no-repeat;
+        background-size: cover;
+        color: black;
+        font-size: 30px;
+        width: 100%;
+        height: 1080px;
+    }
+    .logo {
+        max-width: 250px;
+    }
+    .download {
+        display: inline-block;
+    }
+    
+}
+
+@media screen and (min-width: 1281px){
+    .head, .bodyone, .bodytwo, .bodythree {
+        background: transparent url(../imgs/19201080.png) center center no-repeat;
+        background-size: cover;
+        color: black;
+        font-size: 30px;
+        justify-content: center;
+        width: 100%;
+        height: 1080px;
+    }
+    .logo {
+        max-width: 300px;
+    }
+    .download {
+        display: inline-block;
+    }
+    
+}
