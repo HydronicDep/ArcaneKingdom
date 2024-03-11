@@ -1,65 +1,138 @@
     * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Designer', Helvetica, sans-serif;
+    font-family: 'NexaB', Helvetica, sans-serif;
     }
 
     html, body {
         height: 100vh;
-        width: 97.9vw;
-        position: relative;
-    }
-
-    .logo {
-        display: block;
-        margin: 25px auto;
-    }
-
-    .head {
-        margin: 50px auto;
-        margin-top: 25px;
-        text-align: center; 
         width: 100%;
-        height: 1080px;
-        position: relative;
     }
 
-    .buttons {
-        position: absolute;
-        text-align: center;
-        padding-top: 30px;
-        bottom: 0;
-        left: 0;
-        right: 0;
+    .container {
+        width: 100%;
+    }
+
+    .article1, .article2, .article3, .article4 {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 950px;
+    }
+
+    .article1 {
+        background: transparent url(../imgs/wallpaper1.jpg) center right no-repeat;
+        background-size: cover;
+    }
+
+    .article2 {
+        background: transparent url(../imgs/wallpaper2.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
+    .article3 {
+        background: transparent url(../imgs/wallpaper3.jpg) center right no-repeat;
+        background-size: cover;
+    }
+
+    .article4 {
+        background: transparent url(../imgs/wallpaper4.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
+    .article01 {
+        display: flex;
+        flex-flow: column nowrap;
+        height: 950px;
+        background-image: linear-gradient(transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, darkgray);
+        color: white;
+    }
+
+    .article02, .article03 {
+        height: 950px;
+        display: block;
+        background-image: linear-gradient(darkgray, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, darkgray);
+    }
+
+    .article04 {
+        height: 950px;
+        display: block;
+        background-image: linear-gradient(darkgray, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent);
+    }
+
+    .conteudo0 {
+        margin: 40px auto;
+        width: 200px;
+        height: 200px;
+    }
+    
+
+    .conteudo1 {
+        margin: 50px auto;
+        padding: 60px;
+        max-width: 800px;
+        color: white;
+        text-shadow: 3px 3px 2px black;
+    }
+
+    .text1 {
+        background-color: rgba(128, 128, 128, 0.274);
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+    .conteudo2 {
         margin: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 300px;
+        width: 300px;
+        max-width: 800px;
+        color: white;
+        text-shadow: 3px 3px 2px black;
     }
-
-
-    .head > div > a:hover {
-        color: red;
+    
+    .conteudo3 {
+        margin: auto;
+        padding: 60px;
+        max-width: 800px;
+        color: white;
+        text-shadow: 3px 3px 2px black;
+    }
+    
+    .conteudo4 {
+        margin: auto;
+        padding: 80px;
+        max-width: 800px;
+        color: white;
+        text-shadow: 3px 3px 2px black;
+    }
+    
+    .conteudo5 {
+        margin: auto;
+        padding: 80px;
+        max-width: 800px;
+        color: white;
+        text-shadow: 3px 3px 2px black;
     }
 
     .register, .download {
-        text-decoration: none;
-        display: inline-block;
-        color: aqua;
-        text-shadow: 2px 2px 3px black;
-        width: 350px;
-        height: 90px;
-        border-radius: 10px;
-        box-shadow: 3px 3px 3px black;
-    }
-
-    .register {
+        margin: 30px;
+        padding: 15px 80px;
         background-image: url(../imgs/texturaamarela.jpg);
     }
 
-    .download {
-        background-image: url(../imgs/download.jpg);
+    a { 
+        color: white;
+        text-decoration:  none; 
     }
 
     footer {
         background-color: darkgray;
         width: 100%;
         height: 300px;
+        color: white;
+        text-shadow: 3px 3px 2px black;
     }

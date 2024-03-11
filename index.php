@@ -14,25 +14,38 @@
 	<title>Arcane Kingdom</title>
 </head>
 <body>
-		<a href="index.php"><img src="imgs/logo.png" alt="Logo.png" class="logo"></a>
-	<main>
-		<div class="head">
-			<div class="text"><p>Bem vindo ao Arcane Kingdom</p></div>
-			<div class="buttons">
-					<a href="#" class="register"><div class="butaor">Register</div></a>	
-					<a href="#" class="download"><div class="butaod">Download</div></a>
-			</div>
-		</div>
-		<div class="bodyone">
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima sequi in nostrum voluptates, minus recusandae impedit! Corporis dignissimos dolorum ab facere minima quisquam cumque quaerat facilis, libero numquam reprehenderit modi?</p>
-		</div>
-		<div class="bodytwo">
-			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam aperiam, dignissimos quo aspernatur quaerat eum laborum sed, at molestias neque aut officiis explicabo iste! Animi, nesciunt aut? Ipsa, asperiores consequatur.</p>
-		</div>
-		<div class="bodythree">
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, eos tenetur? Laboriosam ratione cum earum natus id, aut quod sed delectus odit fugiat facilis dicta incidunt provident quasi sunt iure.</p>
-		</div>
-	</main>
+	<section class="container">
+		<article class="article1">
+			<article class="article01">
+				<img src="imgs/logo.png" alt="logo" class="conteudo0">
+				<div class="conteudo1">
+				<h1 class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto deserunt earum quas saepe repellat qui voluptate laborum, a quo, est adipisci suscipit sint asperiores ducimus at, inventore natus sequi excepturi!</h1>
+				</div>
+				<div class="conteudo2">
+					<a href="#" class="register"><div class="registerb">Register</div></a>
+					<a href="#" class="download"><div class="downloadb">Download</div></a>
+				</div>
+			</article>
+		</article>
+		<article class="article2">
+			<article class="article02">
+				<div class="conteudo3">
+				<h1 class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique exercitationem iure nisi assumenda, quam et dolorum voluptates sint corporis voluptatum enim accusantium obcaecati tempore neque aliquam velit consectetur maiores!</h1></div>
+			</article>
+		</article>
+		<article class="article3">
+			<article class="article03">
+				<div class="conteudo4">
+				<h1 class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique perspiciatis distinctio cupiditate facere. Corporis, sed. Nostrum quam provident odio, natus cumque perferendis unde, quas sunt, tempora porro possimus iste et!</h1></div>
+			</article>
+		</article>
+		<article class="article4">
+			<article class="article04">
+				<div class="conteudo5">
+				<h1 class="text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolorem ab possimus libero assumenda vero eum! Sit ratione delectus cumque ducimus sunt quo. Enim accusantium cupiditate amet nemo non debitis.</h1></div>
+			</article>	
+		</article>
+	</section>
 	<footer>
 
 	</footer>
